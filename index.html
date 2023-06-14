@@ -90,14 +90,15 @@
   method="POST"
 >
   <div class="form-group">
-    <input type="email" name="email">
+    <input type="text" name="username" placeholder="Username">
   </div>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
+  <div class="form-group">
+    <input name="password" placeholder="Password" type="password">
+  </div>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <div class="form-group">
+     <button type="submit">Login</button>
+  </div>
 </form>
       <div class="text-small">
         <a href="#">Forgot password?</a>
